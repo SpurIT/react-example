@@ -1,0 +1,45 @@
+.Sidebar {
+    position: relative;
+    width: var(--sidebar-width);
+    height: calc(100vh - var(--navbar-height));
+    padding: var(--container-gutter);
+    background-color: var(--inverted-bg-color);
+    transition: width var(--transition-speed);
+}
+
+.collapsed {
+    width: var(--sidebar-width-collapsed);
+}
+
+.switcher {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    bottom: 20px;
+}
+
+.linkList {
+    list-style-type: none;
+    padding: 10px;
+}
+
+.linkItem {
+    padding-bottom: 20px;
+    & a {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+
+    &:last-child {
+        padding-bottom: 0;
+    }
+}
+
+.collapsedBtn {
+    position: absolute;
+    right: 0;
+    bottom: 40px;
+    transform: translateX(100%);
+}

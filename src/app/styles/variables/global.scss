@@ -1,0 +1,38 @@
+:root {
+    --font-family-main: "Arial", san-serif;
+    --font-size-sm: 8px;
+    --font-line-sm: 16px;
+    --font-sm: var(--font-size-sm) / var(--font-line-sm) var(--font-family-main);
+    --font-size-m: 16px;
+    --font-line-m: 24px;
+    --font-m: var(--font-size-m) / var(--font-line-m) var(--font-family-main);
+    --font-size-l: 24px;
+    --font-line-l: 32px;
+    --font-l: var(--font-size-l) / var(--font-line-l) var(--font-family-main);
+    --font-size-xl: 32px;
+    --font-line-xl: 40px;
+    --font-xl: var(--font-size-xl) / var(--font-line-xl) var(--font-family-main);
+
+    /* Gutter */
+    --container-gutter: 20px;
+
+    /* Transition */
+
+    --transition-speed: 0.3s;
+
+    /* Sizes */
+    --navbar-height: 50px;
+
+    /* Sidebar */
+    --sidebar-width: 90px;
+    --sidebar-width-collapsed: 300px;
+
+    /* Colors */
+    --white: 255, 255, 255;
+    --black: 0, 0, 0;
+    --error-ligtht: 255, 51, 51;
+    --error-dark: 200, 1, 1;
+
+    /* Z-index */
+    --z-index-modal: 10;
+}

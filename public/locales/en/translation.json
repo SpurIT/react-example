@@ -1,0 +1,31 @@
+{
+  "welcome": "Welcome to React",
+  "language": "En",
+  "header": {
+    "login": {
+      "login_button": "Login"
+    },
+    "logout": {
+      "logout_button": "Logout"
+    }
+  },
+  "sidebar": {
+    "title": "Sidebar",
+    "links": {
+      "main": "Main",
+      "about": "About us",
+      "profile": "Profile"
+    }
+  },
+  "error": {
+    "title": "Something went wrong",
+    "button": "Try again"
+  },
+  "login_form": {
+    "title": "Login form",
+    "name": "Enter the name",
+    "password": "Enter the password",
+    "submit_button": "Auth",
+    "error": "Incorrect login or password"
+  }
+}
