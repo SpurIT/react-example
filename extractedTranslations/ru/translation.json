@@ -1,0 +1,25 @@
+{
+  "about": "about",
+  "error": {
+    "button": "button",
+    "title": "title"
+  },
+  "header": {
+    "login": {
+      "login_button": "login_button"
+    },
+    "logout": {
+      "logout_button": "logout_button"
+    }
+  },
+  "language": "language",
+  "login_form": {
+    "error": "error",
+    "name": "name",
+    "password": "password",
+    "submit_button": "submit_button",
+    "title": "title"
+  },
+  "main": "main",
+  "notFound": "notFound"
+}

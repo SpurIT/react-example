@@ -7,11 +7,7 @@ import LanguageDetector from 'i18next-browser-languagedetector';
 import translationEN from '../../../../public/locales/en/translation.json';
 import aboutPageEN from '../../../../public/locales/en/aboutPage.json';
 import mainPageEN from '../../../../public/locales/en/mainPage.json';
-import translationRU from '../../../../public/locales/ru/translation.json';
-import aboutPageRU from '../../../../public/locales/ru/aboutPage.json';
-import mainPageRU from '../../../../public/locales/ru/mainPage.json';
 import notFoundEN from '../../../../public/locales/en/notFoundPage.json';
-import notFoundRU from '../../../../public/locales/ru/notFoundPage.json';
 
 const resources = {
     en: {
@@ -19,12 +15,6 @@ const resources = {
         aboutPage: aboutPageEN,
         mainPage: mainPageEN,
         notFoundPage: notFoundEN,
-    },
-    ru: {
-        translation: translationRU,
-        aboutPage: aboutPageRU,
-        mainPage: mainPageRU,
-        notFoundPage: notFoundRU,
     },
 };
 
